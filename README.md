@@ -1,4 +1,4 @@
-## Highest Score
+## FizzBuzz
 
 # UPDATE
 We've moved away from repl.it for coding exercises.
@@ -10,47 +10,47 @@ Login to your Udemy course and head over to the link below to get the sign up li
 
 # Instructions
 
-You are going to write a program that calculates the highest score from a List of scores. 
+You are going to write a program that automatically prints the solution to the FizzBuzz game. 
 
-e.g. `student_scores = [78, 65, 89, 86, 55, 91, 64, 89]`
+> `Your program should print each number from 1 to 100 in turn.` 
 
-**Important** you are not allowed to use the max or min functions. The output words must match the example. i.e 
+>   `When the number is divisible by 3 then instead of printing the number it should print "Fizz".` 
 
-> `The highest score in the class is: x`
+>     `When the number is divisible by 5, then instead of printing the number it should print "Buzz".` 
 
-# Example Input 
+>       `And if the number is divisible by both 3 and 5 e.g. 15 then instead of the number it should print "FizzBuzz"`
 
-```
-78 65 89 86 55 91 64 89
-```
-
-In this case, student_scores would be a list that looks like: `[78, 65, 89, 86, 55, 91, 64, 89]`
-
-# Example Output 
+e.g. it might start off like this:
 
 ```
-The highest score in the class is: 91
+`1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz`
 ```
 
-e.g. When you hit **run**, this is what should happen: 
-
-  
-![](https://cdn.fs.teachablecdn.com/DnSPgYNSTgeHRJ3MinHg)
- 
+`.... etc.`
 
 # Hint
 
-1. Think about the logic before writing code. How can you compare numbers against each other to see which one is larger?
+1. Remember your answer should start from 1 and go up to and including 100. 
 
-# Test Your Code
-
-Before checking the solution, try copy-pasting your code into this repl: 
-
-[https://repl.it/@appbrewery/day-5-2-test-your-code](https://repl.it/@appbrewery/day-5-2-test-your-code)
-
-This repl includes my testing code that will check if your code meets this assignment's objectives. 
-
+2. Each number/text should be printed on a separate line.
 
 # Solution
 
-[https://repl.it/@appbrewery/day-5-2-solution](https://repl.it/@appbrewery/day-5-2-solution)
+[https://repl.it/@appbrewery/day-5-4-solution](https://repl.it/@appbrewery/day-5-4-solution)
+
+Alternatively: [https://en.wikipedia.org/wiki/Fizz_buzz](https://en.wikipedia.org/wiki/Fizz_buzz)
+
